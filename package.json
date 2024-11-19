@@ -1,0 +1,15 @@
+{
+  "name": "sneakers",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "sass style.scss style.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "sass": "^1.81.0"
+  }
+}

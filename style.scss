@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.social a i{
+    color: black;
+    font-size: 1.2rem;
+}
+
+// Variables for styling
+$primary-color: #00264d;
+$text-color: #333;
+$bg-color: #f8f9fa;
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-image: url(/Asset/bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: $text-color;
+}
+
+#sect{
+    padding-top: 60px;
+}
+
+.car-image {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+.color-circle {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin: 0 5px;
+  border: 1px solid #ccc;
+  transition: transform 0.2s ease-in-out;
+
+  &:hover {
+    transform: scale(1.1);
+    border-color: $primary-color;
+  }
+}
+
+.wheel-icon {
+  width: 40px;
+  height: 40px;
+  border: 1px solid transparent;
+  border-radius: 50%;
+  transition: transform 0.2s ease-in-out;
+
+  &:hover {
+    transform: scale(1.1);
+    border-color: $primary-color;
+  }
+}
+
+.spec-section h5 {
+  color: $primary-color;
+  font-size: 1.2rem;
+}
+
+a {
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+
+
+// @media (min-width: 1025px) and (max-width: 1200px){
+//     .spec{
+//         margin-left: 100px;
+//         display: none !important;
+// }
+// }
